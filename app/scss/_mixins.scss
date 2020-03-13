@@ -1,0 +1,83 @@
+    @mixin subtitle {
+        content: '';
+        position: absolute;
+        width: 28px;
+        height: 1px;
+        background-color: $main-color;
+    }
+    
+    @mixin header {
+        content: ' ';
+        display: block;
+        background: rgba(107, 105, 105, 0.158);
+        height: 2px;
+        width: 90px;
+        position: absolute;
+        top: 6px;
+    }
+    
+    @mixin container {
+        max-width: 995px;
+        margin: 0 auto;
+        padding: 80px 10px;
+        box-sizing: border-box;
+    }
+    
+    @mixin icon {
+        opacity: 0.4;
+        color: #282528;
+        font-size: 34px;
+        font-weight: 400;
+    }
+    
+    @mixin heart {
+        display: block;
+        width: 240px;
+        height: auto;
+        margin: 0 auto 60px;
+        position: relative;
+        text-align: center;
+        i {
+            padding: 0 5px;
+            position: relative;
+            opacity: 20%;
+            background-color: #eee;
+        }
+    }
+    
+    @mixin title {
+        font-family: $lato-font;
+        font-size: 28px;
+        color: $main-color;
+        text-transform: uppercase;
+        letter-spacing: -0.56px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    @mixin text {
+        max-width: 710px;
+        margin: 0 auto;
+        color: #062033;
+        font-family: 'Lato Hairline', Arial, Helvetica, sans-serif;
+        font-size: 1px;
+        font-weight: 800;
+        line-height: 19.95px;
+        text-align: center;
+    }
+    
+    @mixin gallery__title {
+        color: #ffffff;
+        font-family: $main-font;
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 17px;
+        margin-bottom: 0px;
+    }
+    
+    @mixin gallery__subtitle {
+        color: #ffffff;
+        font-family: $main-font;
+        font-size: 10px;
+        margin-top: 7px;
+    }

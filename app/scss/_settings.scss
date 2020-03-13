@@ -1,0 +1,28 @@
+body:focus {
+    box-shadow: 0 0 10px #000;
+    outline: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+p {
+    margin: 0;
+}
+
+h2 {
+    margin: 0 auto 20px;
+    max-width: 250px;
+}
